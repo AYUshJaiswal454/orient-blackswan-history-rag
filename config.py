@@ -21,7 +21,7 @@ EMBEDDING_MODEL_NAME = os.getenv(
 )
 
 # Configurable Gemini model: defaults to high-availability gemini-3.5-flash-lite
-LLM_MODEL = os.getenv("LLM_MODEL") or os.getenv("GEMINI_MODEL") or "gemini-3.5-flash-lite"
+LLM_MODEL = os.getenv("LLM_MODEL") or "gemini-3.5-flash-lite"
 
 SYSTEM_PROMPT = """You are a strict document question-answering assistant for the Orient BlackSwan History Catalogue 2024–25.
 

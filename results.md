@@ -1,6 +1,6 @@
 # Evaluation Results — Orient BlackSwan History Bot
 
-**Date:** 2026-10-23 15:43:10  
+**Date:** 2026-10-23 16:13:43  
 **Score:** 5/5 (100% Passed)
 
 ---
@@ -9,7 +9,7 @@
 
 | ID | Question | Expected Answer | Actual Answer | Status |
 |---|---|---|---|---|
-| **Q1** | On what date were the prices in this catalogue last updated? | `20-01-2025` | 20-01-2025 <br> Reference: Page 4 - "Prices updated on 20-01-2025." | **PASS** |
+| **Q1** | On what date were the prices in this catalogue last updated? | `20-01-2025` | 20-01-2025 <br>  <br> Reference: Page 4 - "Prices updated on 20-01-2025." | **PASS** |
 | **Q2** | In which year was the publisher (Orient BlackSwan) incorporated? | `1948` | 1948 <br> Reference: Page 2 - "Incorporated in 1948, the consistent emphasis of our publishing programme has been on quality." | **PASS** |
 | **Q3** | What is the price of a Physics textbook? | `Not found` | Not found | **PASS** |
 | **Q4** | Who is the current Minister of Education? | `Not found` | Not found | **PASS** |
@@ -26,12 +26,13 @@
 - **Actual Answer:**
 ```
 20-01-2025
+
 Reference: Page 4 - "Prices updated on 20-01-2025."
 ```
 - **Reference Page:** Page 4
 - **Supporting Quote:** *"Prices updated on 20-01-2025."*
 - **Sources Retrieved:** 3
-- **Latency:** 12.24s
+- **Latency:** 9.96s
 
 ### [Q2] In which year was the publisher (Orient BlackSwan) incorporated?
 
@@ -45,7 +46,7 @@ Reference: Page 2 - "Incorporated in 1948, the consistent emphasis of our publis
 - **Reference Page:** Page 2
 - **Supporting Quote:** *"Incorporated in 1948, the consistent emphasis of our publishing programme has been on quality."*
 - **Sources Retrieved:** 3
-- **Latency:** 2.79s
+- **Latency:** 0.74s
 
 ### [Q3] What is the price of a Physics textbook?
 
@@ -56,7 +57,7 @@ Reference: Page 2 - "Incorporated in 1948, the consistent emphasis of our publis
 Not found
 ```
 - **Sources Retrieved:** 0
-- **Latency:** 5.44s
+- **Latency:** 1.05s
 
 ### [Q4] Who is the current Minister of Education?
 
@@ -67,7 +68,7 @@ Not found
 Not found
 ```
 - **Sources Retrieved:** 0
-- **Latency:** 1.97s
+- **Latency:** 0.81s
 
 ### [Q5] Which is the "best" history book for a beginner?
 
@@ -78,5 +79,5 @@ Not found
 Not found
 ```
 - **Sources Retrieved:** 0
-- **Latency:** 1.8s
+- **Latency:** 0.82s
 
