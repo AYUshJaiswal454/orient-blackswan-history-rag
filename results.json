@@ -1,0 +1,68 @@
+{
+  "timestamp": "2026-10-23 15:43:10",
+  "total_tests": 5,
+  "passed_tests": 5,
+  "score_percentage": 100,
+  "results": [
+    {
+      "id": "Q1",
+      "question": "On what date were the prices in this catalogue last updated?",
+      "expected_answer": "20-01-2025",
+      "actual_answer": "20-01-2025\nReference: Page 4 - \"Prices updated on 20-01-2025.\"",
+      "reference_page": 4,
+      "reference_quote": "Prices updated on 20-01-2025.",
+      "sources_count": 3,
+      "latency_sec": 12.24,
+      "status": "PASS",
+      "reason": ""
+    },
+    {
+      "id": "Q2",
+      "question": "In which year was the publisher (Orient BlackSwan) incorporated?",
+      "expected_answer": "1948",
+      "actual_answer": "1948\nReference: Page 2 - \"Incorporated in 1948, the consistent emphasis of our publishing programme has been on quality.\"",
+      "reference_page": 2,
+      "reference_quote": "Incorporated in 1948, the consistent emphasis of our publishing programme has been on quality.",
+      "sources_count": 3,
+      "latency_sec": 2.79,
+      "status": "PASS",
+      "reason": ""
+    },
+    {
+      "id": "Q3",
+      "question": "What is the price of a Physics textbook?",
+      "expected_answer": "Not found",
+      "actual_answer": "Not found",
+      "reference_page": null,
+      "reference_quote": null,
+      "sources_count": 0,
+      "latency_sec": 5.44,
+      "status": "PASS",
+      "reason": ""
+    },
+    {
+      "id": "Q4",
+      "question": "Who is the current Minister of Education?",
+      "expected_answer": "Not found",
+      "actual_answer": "Not found",
+      "reference_page": null,
+      "reference_quote": null,
+      "sources_count": 0,
+      "latency_sec": 1.97,
+      "status": "PASS",
+      "reason": ""
+    },
+    {
+      "id": "Q5",
+      "question": "Which is the \"best\" history book for a beginner?",
+      "expected_answer": "Not found",
+      "actual_answer": "Not found",
+      "reference_page": null,
+      "reference_quote": null,
+      "sources_count": 0,
+      "latency_sec": 1.8,
+      "status": "PASS",
+      "reason": ""
+    }
+  ]
+}
